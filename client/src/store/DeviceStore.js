@@ -44,6 +44,20 @@ export default class DeviceStore {
         rating: 5,
         img: 'https://www.yablokitradein.ru/image/cache/catalog/12%20pro%20iphone/iphone-12-pro-blue-hero-500x500.png',
       },
+      {
+        id: 5,
+        name: 'Iphone 12 pro',
+        price: 25000,
+        rating: 5,
+        img: 'https://www.yablokitradein.ru/image/cache/catalog/12%20pro%20iphone/iphone-12-pro-blue-hero-500x500.png',
+      },
+      {
+        id: 6,
+        name: 'Iphone 12 pro',
+        price: 25000,
+        rating: 5,
+        img: 'https://www.yablokitradein.ru/image/cache/catalog/12%20pro%20iphone/iphone-12-pro-blue-hero-500x500.png',
+      },
     ];
     this._selectedType = {};
     this._selectedBrand = {};
