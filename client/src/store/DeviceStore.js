@@ -5,7 +5,10 @@ export default class DeviceStore {
     this._types = [
       { id: 1, name: 'Холодильники' },
       { id: 2, name: 'Смартфоны' },
+      { id: 3, name: 'Ноутбуки' },
+      { id: 4, name: 'Телевизоры' },
     ];
+    this._selectedType = {};
     this._brands = [
       { id: 1, name: 'Samsung' },
       { id: 2, name: 'Apple' },
@@ -55,6 +58,10 @@ export default class DeviceStore {
     this._devices = devices;
   }
 
+  setSelectedType(type) {
+    this._selectedType = type;
+  }
+
   get types() {
     return this._types;
   }
@@ -65,5 +72,9 @@ export default class DeviceStore {
 
   get devices() {
     return this._devices;
+  }
+
+  get selectedType() {
+    return this._selectedType;
   }
 }
