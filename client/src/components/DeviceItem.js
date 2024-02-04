@@ -18,7 +18,7 @@ const DeviceItem = ({ device }) => {
       style={{ cursor: 'pointer' }}
     >
       <Card style={{ width: 150, cursor: 'ponter' }} border={'light'}>
-        <CardImg width={150} height={150} src={device.img} />
+        <CardImg width={150} height={150} src={process.env.REACT_APP_API_URL + device.img} />
         <div className="text-black-50 mt-1 d-flex justify-content-between align-items-center">
           <div>Samsung...</div>
           <div className="d-flex align-items-center">
